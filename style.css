@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+font-family: 'Protest Riot', sans-serif;
+background-color: rgb(190, 188, 188);
+}
+.title{
+    width: 100%;
+    background-color: greenyellow;
+    padding: 15px;
+}
+
+.book_title{
+    padding:3%;
+     
+}
+
+.book_container{
+    width:50%;
+    padding: 15px;
+    background-color: greenyellow;
+    color:black;
+    border-radius:10px;
+    display: inline-block;
+    
+   
+}
+.book_container button{
+    background-color: rgb(190, 188, 188); 
+    width: 100%;
+    border-radius: 10px;
+    height: 30px;
+    font-family: 'Protest Riot', sans-serif;
+}
+.plus{
+    background-color: greenyellow;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    border-radius:100% ;
+     font-size: 40px;
+     position: fixed;
+     right: 30px;
+     bottom: 80px;
+    
+}
+.overlay{
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    opacity: 0.8;
+    display: none;
+}
+.popup{
+    position: fixed;
+    width: 40%;
+    height: 40%;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+    background-color:aliceblue;
+    display: none;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.addbook input{
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-bottom:solid ;
+    border-color:rgb(190, 188, 188); 
+    background-color: transparent;
+    font-size: 20px;
+    font-family: 'Protest Riot', sans-serif;
+
+    
+}
+#description{
+    width: 100%;
+    padding: 5px;
+    padding-bottom: 40px;
+    margin: 5px;
+    border-color: solid rgb(190, 188, 188) 2px; 
+    background-color: transparent;
+    font-size: 20px;
+    font-family: 'Protest Riot', sans-serif;
+    
+       
+}
+.addbook button{
+    width: 40%;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Protest Riot', sans-serif;
+    margin-left: 35px;
+    color:  rgb(190, 188, 188);
+    background-color: black;
+    
+    
+}
+footer {
+    background-color:greenyellow;;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 8%;
+    
+}
